@@ -27,7 +27,7 @@ $ python manage.py migrate
 $  python manage.py createsuperuser
 	>>>  email_address : admin@123.com
 	>>>  username : admin
-	>>>  password : admin
+	>>>  password : admin@123
 ```
 
 ### Run django server
@@ -37,28 +37,3 @@ $ python3 manage.py runserver
 ```
 
 
-### Create docker build using below command 
-
-```
-$ sudo docker build -t django-app .
-$ sudo docker-compose up --build
-```
-
-### Check doker image using below command
-
-```
-$ sudo docker ps -a
-
-OR
-
-$ sudo docker images
-```
-
-### Download docker image using below command
-
-```
-$ sudo docker pull django
-```
-
-
-"# test_prac" 
